@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
 public class LogAspect {
 
     @Pointcut("@annotation(com.changtai.highlight_spring4.ch1.aop.Action)")
-    public void annotationPointCut(){};
+    public void annotationPointCut(){}
 
     @After("annotationPointCut()")
     public void after(JoinPoint joinPoint){

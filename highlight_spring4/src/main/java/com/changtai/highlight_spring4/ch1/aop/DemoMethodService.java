@@ -1,7 +1,12 @@
 package com.changtai.highlight_spring4.ch1.aop;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class DemoMethodService {
 
-    public void add(){}
+    public void add(){
+        System.out.println("DemoMethodService add method...");
+    }
 
 }

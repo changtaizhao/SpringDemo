@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 public class DemoAnnotationService {
 
     @Action(name = "注解式拦截的add方法")
-    public void add(){}
+    public void add(){
+        System.out.println("DemoAnnotationService add method...");
+    }
 
 }
