@@ -7,6 +7,6 @@
     <groupId>com.changtai</groupId>
     <artifactId>spring_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packing>pom</packing>
+
     
 </project>
